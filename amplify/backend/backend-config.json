@@ -7,7 +7,7 @@
 				"authConfig": {
 					"additionalAuthenticationProviders": [],
 					"defaultAuthentication": {
-						"authenticationType": "API_KEY",
+						"authenticationType": "da2-qdyk6a6wprd4jis2eqjvvse5fa",
 						"apiKeyConfig": {
 							"description": "voterocket_api_key",
 							"apiKeyExpirationDays": 7
