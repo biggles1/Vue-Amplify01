@@ -7,14 +7,20 @@
 				"authConfig": {
 					"additionalAuthenticationProviders": [],
 					"defaultAuthentication": {
-						"authenticationType": "da2-qdyk6a6wprd4jis2eqjvvse5fa",
+						"authenticationType": "API_KEY",
 						"apiKeyConfig": {
-							"description": "voterocket_api_key",
+							"description": "deva-api-key",
 							"apiKeyExpirationDays": 7
 						}
 					}
 				}
 			}
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }

@@ -10,5 +10,17 @@
             "StackName": "voterocket-dev-20191021180554",
             "StackId": "arn:aws:cloudformation:ap-southeast-2:052782141566:stack/voterocket-dev-20191021180554/9b512530-f3d9-11e9-bf82-06799db300fe"
         }
+    },
+    "deva": {
+        "awscloudformation": {
+            "AuthRoleName": "voterocket-deva-20191023145242-authRole",
+            "UnauthRoleArn": "arn:aws:iam::052782141566:role/voterocket-deva-20191023145242-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::052782141566:role/voterocket-deva-20191023145242-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "voterocket-deva-20191023145242-deployment",
+            "UnauthRoleName": "voterocket-deva-20191023145242-unauthRole",
+            "StackName": "voterocket-deva-20191023145242",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:052782141566:stack/voterocket-deva-20191023145242/f2b57d80-f550-11e9-bc38-0266790261ee"
+        }
     }
 }
