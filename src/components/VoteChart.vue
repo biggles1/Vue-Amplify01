@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       options: chartOptions
-    }
+    };
   },
   mounted() {
     this.renderChart(this.chartData, this.options);
